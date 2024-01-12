@@ -1,0 +1,67 @@
+.body {
+  background-color: rgba(169, 211, 95, 0.747);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+}
+.btn-container {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  padding: 5px;
+  border: 1px solid;
+  border-radius: 10px;
+  transition: all 0.2s ease-in;
+}
+.btn-container:hover {
+  scale: 1.2;
+}
+.timer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 20px;
+}
+.field {
+  padding: 5px 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid;
+}
+.label {
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.value {
+  font-weight: 700;
+  font-size: 18px;
+}
+.body button {
+  border: 1px solid;
+  border-radius: 8px;
+  padding: 8px 10px;
+  font-weight: 700;
+  font-size: 24px;
+  background-color: transparent;
+  transition: all 0.4s ease-out;
+}
+.body button:focus,
+.body button:hover {
+  border-color: rgba(20, 85, 14, 0.514);
+  color: rgba(68, 20, 100, 0.904);
+}
+#datetime-picker {
+  margin: 0;
+  padding: 15px;
+  margin: 0 auto;
+  border-radius: 4px;
+  border: transparent;
+}
